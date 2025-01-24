@@ -1,6 +1,6 @@
 import { useParams, useSearchParams } from 'react-router'
 
-const About = () => {
+const HCharge = () => {
   const params = useParams()
   const [search] = useSearchParams()
 
@@ -9,10 +9,9 @@ const About = () => {
 
   return (
     <div>
-      <h1>About Us</h1>
-      <p>This is the About Page where you can learn more about us.</p>
+      hcharge
     </div>
   )
 }
 
-export default About
+export default HCharge

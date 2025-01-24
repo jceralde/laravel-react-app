@@ -2,10 +2,10 @@ import { PencilLine } from "lucide-react"
 
 const Logo = () => {
   return (
-    <a href="#" className="flex gap-x-2">
-      <PencilLine strokeWidth={1} />
+    <div className="flex items-center gap-x-2">
+      <PencilLine strokeWidth={1} size={20} />
       <span className="font-semibold">masterLib</span>
-    </a>
+    </div>
   )
 }
 
